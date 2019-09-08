@@ -126,6 +126,7 @@ partof: REQ-future_work
 This is a simple TODO.
 New items are added at the top
 
+ * inject multiple mutants. take a random alive mutant. start injecting one alive mutant after another that is in close proximity to each other. how many can be injected before the test suite fails? Is this a simulation of how many errors that can be introduced before the test suite finds it?
  * add a database query that returns test cases sorted by the number of mutants they killed.
    change package.d to using it instead of sort_tcs_on_kills.
  * impl execution of mutants on only changed lines.
